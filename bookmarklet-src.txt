@@ -1,1 +1,1 @@
-javascript: (function () %7Bvar jsCode %3D document.createElement(%27script%27)%3B       jsCode.setAttribute(%27src%27, %27http://ac-edit.github.com/ac_edit.js%27)%3B                      document.body.appendChild(jsCode)%3B    %7D())%3B
+javascript: (function () %7Bvar jsCode %3D document.createElement(%27script%27)%3B       jsCode.setAttribute(%27src%27, %27https://raw.githubusercontent.com/jimmykl/ac-edit/master/ac-edit.js%27)%3B                      document.body.appendChild(jsCode)%3B    %7D())%3B
