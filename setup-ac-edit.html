@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>Audioculture 'Edit this' bookmarklet</title>
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+  <meta name="author" content="James Kirkus-Lamont" />
+  <style type="text/css">
+  body {
+    background: #EEE url('../100-90-5(2f2f2a).png');
+    padding: 50px;
+    font-family: 'proxima-nova', Helvetica, Arial, sans-serif;
+  }
+  h1 {
+    font-style: normal;
+    font-weight: 600;
+    color: #0071BC;
+    font-size: 3em;
+  }
+    h1 span { color: #555 }
+  h2 {
+    font-style: normal;
+    font-weight: 400;
+    color: #666;
+    font-size: 3em;
+  }
+  h3 {
+    margin-top: 50px;
+  }
+  h3, a {
+    font-style: normal;
+    font-weight: 100;
+    color: #666;
+    font-size: 1.5em;
+  }
+  a {
+    display: block;
+    float: left;
+    padding: 25px;
+    margin: 0 0 25px 0;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: #FFF;
+  }
+    a:hover {
+      background-color: #0071BC;
+      color: #FFF;
+    }
+      a:hover span {
+        color: #FFF;
+      }
+  p,ul {
+    display: block;
+    clear: left;
+    overflow: hidden;
+    color: #666;
+    font-weight: 300;
+    font-size: 1.2em;
+  }
+  .wf-loading {
+    visibility: hidden;
+  }
+  </style>
+  <script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-24876536-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+  </script>
+</head>
+
+<body>
+  <div>
+<h2>Audioculture 'Edit this' bookmarklet<h2>
+    <h3>Drag the button below to your bookmark bar</h3>
+    <a href="javascript:(function()%7Bjavascript%3A%20(function%20()%20%7Bvar%20pathArray%20%3D%20window.location.pathname%3BpathArray%20%3D%20pathArray.split('%2F')%3Bvar%20newURL%20%3D%20window.location.protocol%20%2B%20%22%2F%2F%22%20%2B%20window.location.host%20%2B%20'%2Fadmin%2F'%20%2B%20pathArray%5B1%5D%20%2B%20%22%2F%22%20%2B%20pathArray%5B2%5D%20%2B%20%22%2Fedit%22%3Bwindow.open(newURL)%3B%7D())%7D)()">AC Edit this</a>
+<p><img src='./1.jpg' /></p>
+
+<h3>When you are on a People/Label/Scene page and click the bookmark&hellip;</h3>
+<p><img src='./2.jpg' /></p>
+
+<h3>&hellip; it will open a new window to edit it in the CMS.</h3>
+<p><img src='./3.jpg' /></p>
+
+
+<h3>Notes:</h3>
+<ul>
+<li>You might have to allow popups for the site the first time you use it.</li>
+<li>It knows the difference between staging. and www.</li>
+</ul> </div>
+
+  <script type="text/javascript" src="http://use.typekit.com/odl8kvc.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+</body>
+</html>
